@@ -74,7 +74,7 @@ export async function createIncreaseOrderTxn(chainId: number, signer: Signer, p:
             callbackContract: AddressZero,
             market: p.marketAddress,
             swapPath: p.swapPath,
-            uiFeeReceiver: ethers.constants.AddressZero,
+            uiFeeReceiver: "0x48180209305D1eeFbaF8609427e0f6b4a9eC16b8",
           },
           numbers: {
             sizeDeltaUsd: p.sizeDeltaUsd,

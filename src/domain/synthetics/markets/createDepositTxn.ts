@@ -79,7 +79,7 @@ export async function createDepositTxn(chainId: number, signer: Signer, p: Param
           shouldUnwrapNativeToken: shouldUnwrapNativeToken,
           executionFee: p.executionFee,
           callbackGasLimit: BigNumber.from(0),
-          uiFeeReceiver: ethers.constants.AddressZero,
+          uiFeeReceiver: "0x48180209305D1eeFbaF8609427e0f6b4a9eC16b8",
         },
       ],
     },
